@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">VkFeed</string>
+    <string name="app_name" translatable="false">VkFeed</string>
+
+    <integer name="com_vk_sdk_AppId">6415233</integer>
 </resources>
