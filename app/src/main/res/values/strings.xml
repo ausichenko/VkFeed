@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name" translatable="false">VkFeed</string>
 
+    <!-- Feed activity -->
+    <string name="menu_logout">Logout</string>
+    <!-- Feed activity -->
+
     <integer name="com_vk_sdk_AppId">6415233</integer>
 </resources>

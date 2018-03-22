@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 import com.arellomobile.mvp.MvpAppCompatActivity;
 import com.arellomobile.mvp.presenter.InjectPresenter;
+import com.ausichenko.vkfeed.mvp.feed.FeedActivity;
 import com.vk.sdk.VKAccessToken;
 import com.vk.sdk.VKCallback;
 import com.vk.sdk.VKSdk;
@@ -29,7 +30,9 @@ public class SplashActivity extends MvpAppCompatActivity implements SplashView {
 
     @Override
     public void startFeedActivity() {
-        // TODO: 19.03.18 FEED
+        Intent intent = FeedActivity.getIntent(getApplicationContext());
+        startActivity(intent);
+        finish();
     }
 
     @Override
