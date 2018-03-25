@@ -6,4 +6,7 @@ import com.arellomobile.mvp.MvpPresenter;
 @InjectViewState
 public class FeedPresenter extends MvpPresenter<FeedView> {
 
+    void loadFeed() {
+
+    }
 }
