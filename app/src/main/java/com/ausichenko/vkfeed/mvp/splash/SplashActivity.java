@@ -25,7 +25,7 @@ public class SplashActivity extends MvpAppCompatActivity implements SplashView {
 
     @Override
     public void startLoginActivity() {
-        VKSdk.login(this);
+        VKSdk.login(this, "wall", "friends");
     }
 
     @Override
